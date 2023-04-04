@@ -1,0 +1,42 @@
+.Tittle{
+  text-align: center;
+  color: lightcoral;
+}
+.Tittle:hover{
+  color: lightgreen;
+}
+
+.container{
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1{
+  width: 80px;
+  height: 50px;
+  margin: 20px;
+  font-size: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  background-color: gray;
+}
+.counter{
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.btn2{
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 50px;
+  margin: 20px;
+  font-size: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  background-color: gray;
+}
